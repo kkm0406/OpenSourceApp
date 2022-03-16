@@ -13,9 +13,6 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class Week2Homework extends AppCompatActivity {
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
