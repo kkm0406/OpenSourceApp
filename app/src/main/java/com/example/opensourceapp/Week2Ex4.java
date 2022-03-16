@@ -19,7 +19,7 @@ public class Week2Ex4 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "버튼을 눌렀어요", Toast.LENGTH_LONG.show();
+                Toast.makeText(getApplicationContext(), "버튼을 눌렀어요", Toast.LENGTH_SHORT).show();
             }
         });
     }
