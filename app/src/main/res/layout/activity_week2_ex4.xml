@@ -12,5 +12,14 @@
         android:text="버튼입니다"
         tools:ignore="MissingConstraints"
         android:id="@+id/btn"/>
+    
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="학번: 2018038065\n 이름: 김광모\n 학과: 소프트웨어학부"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:textAlignment="center">
+    </TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
