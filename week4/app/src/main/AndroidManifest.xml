@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Week4">
         <activity
+            android:name=".Project4_4"
+            android:exported="false" />
+        <activity
+            android:name=".mission"
+            android:exported="false" />
+        <activity
+            android:name=".Project4_2"
+            android:exported="false" />
+        <activity
             android:name=".Project4_3"
             android:exported="false" />
         <activity

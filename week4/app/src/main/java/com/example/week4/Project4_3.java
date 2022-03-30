@@ -2,6 +2,7 @@ package com.example.week4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -104,6 +105,16 @@ public class Project4_3 extends AppCompatActivity {
                 }
             }
         });
+
+        Button next = findViewById(R.id.next);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Project4_3.this, Project4_4.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

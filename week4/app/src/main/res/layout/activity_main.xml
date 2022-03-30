@@ -5,14 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Project4_1">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="2018038065_김광모"
-        android:layout_marginBottom="40dp"/>
+    tools:context=".Project4_1"
+    android:padding="30dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -74,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:hint="계산 결과: "
                 android:textColor="#ff0000"
-                android:textSize="30dp"/>
+                android:textSize="20sp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -83,15 +77,15 @@
         </LinearLayout>
 
 
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=" 실습4-2으로 이동 2018038065_김광모"
+            android:backgroundTint="#959595"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
 
-
-<!--        <Button-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="20dp"-->
-<!--            android:hint="나머지값"-->
-<!--            android:backgroundTint="#9C9C9C"-->
-<!--            android:id="@+id/remain"/>-->
     </LinearLayout>
 
 </LinearLayout>

@@ -3,6 +3,7 @@ package com.example.week4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -31,7 +32,7 @@ public class Project4_1 extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int num1 = Integer.parseInt(Edit1.getText().toString());
                 int num2 = Integer.parseInt(Edit2.getText().toString());
-                TextResult.setText(num1+num2);
+                TextResult.setText(String.valueOf(num1+num2));
                 return false;
             }
         });
@@ -41,7 +42,7 @@ public class Project4_1 extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int num1 = Integer.parseInt(Edit1.getText().toString());
                 int num2 = Integer.parseInt(Edit2.getText().toString());
-                TextResult.setText(num1-num2);
+                TextResult.setText(String.valueOf(num1-num2));
                 return false;
             }
         });
@@ -51,7 +52,7 @@ public class Project4_1 extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int num1 = Integer.parseInt(Edit1.getText().toString());
                 int num2 = Integer.parseInt(Edit2.getText().toString());
-                TextResult.setText(num1*num2);
+                TextResult.setText(String.valueOf(num1*num2));
                 return false;
             }
         });
@@ -61,8 +62,17 @@ public class Project4_1 extends AppCompatActivity {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int num1 = Integer.parseInt(Edit1.getText().toString());
                 int num2 = Integer.parseInt(Edit2.getText().toString());
-                TextResult.setText(num1/num2);
+                TextResult.setText(String.valueOf(num1/num2));
                 return false;
+            }
+        });
+
+        Button next = findViewById(R.id.next);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Project4_1.this, Project4_2.class);
+                startActivity(intent);
             }
         });
     }
