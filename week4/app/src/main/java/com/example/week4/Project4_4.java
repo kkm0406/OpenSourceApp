@@ -20,7 +20,6 @@ public class Project4_4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_project44);
 
-        TextView Text1 = findViewById(R.id.Text1);
         Switch check = findViewById(R.id.check);
         TextView Text2 = findViewById(R.id.Text2);
         RadioGroup Rgroup1 = findViewById(R.id.Rgroup1);
@@ -87,6 +86,15 @@ public class Project4_4 extends AppCompatActivity {
                 finish();
                 startActivity(new Intent(Project4_4.this, Project4_4.class));
 
+            }
+        });
+
+        Button next= findViewById(R.id.next);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Project4_4.this, mission.class);
+                startActivity(intent);
             }
         });
 
