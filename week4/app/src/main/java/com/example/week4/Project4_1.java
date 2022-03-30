@@ -2,6 +2,7 @@ package com.example.week4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 public class Project4_1 extends AppCompatActivity {
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,10 +36,34 @@ public class Project4_1 extends AppCompatActivity {
             }
         });
 
+        BtnSub.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int num1 = Integer.parseInt(Edit1.getText().toString());
+                int num2 = Integer.parseInt(Edit2.getText().toString());
+                TextResult.setText(num1-num2);
+                return false;
+            }
+        });
 
+        BtnMul.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int num1 = Integer.parseInt(Edit1.getText().toString());
+                int num2 = Integer.parseInt(Edit2.getText().toString());
+                TextResult.setText(num1*num2);
+                return false;
+            }
+        });
 
-
-
-
+        BtnDiv.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int num1 = Integer.parseInt(Edit1.getText().toString());
+                int num2 = Integer.parseInt(Edit2.getText().toString());
+                TextResult.setText(num1/num2);
+                return false;
+            }
+        });
     }
 }
