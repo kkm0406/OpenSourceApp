@@ -22,21 +22,21 @@ public class project5_1 extends AppCompatActivity {
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.MATCH_PARENT);
 
-        LinearLayout baseLayout = new LinearLayout(this);
-        baseLayout.setOrientation(LinearLayout.VERTICAL);
-        baseLayout.setBackgroundColor(Color.rgb(3, 230, 53));
-        setContentView(baseLayout, params);
+        LinearLayout layout = new LinearLayout(this);
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setBackgroundColor(Color.rgb(3, 230, 53));
+        setContentView(layout, params);
 
         Button btn = new Button(this);
         btn.setText("버튼입니다.");
         btn.setBackgroundColor(Color.RED);
-        baseLayout.addView(btn);
+        layout.addView(btn);
 
         TextView txt = new TextView(this);
         txt.setText("2018038038 김광모");
         txt.setTextColor(Color.BLACK);
         txt.setTextSize(30);
-        baseLayout.addView(txt);
+        layout.addView(txt);
 
 
         btn.setOnClickListener(new View.OnClickListener() {
