@@ -19,7 +19,7 @@
             android:name=".mission5_2"
             android:exported="false" />
         <activity
-            android:name=".mission5"
+            android:name=".mission5_1"
             android:exported="false" />
         <activity
             android:name=".project5_2"

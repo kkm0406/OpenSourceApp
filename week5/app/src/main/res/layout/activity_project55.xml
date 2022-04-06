@@ -14,7 +14,8 @@
         android:layout_column="0"
         android:layout_row="0"
         android:layout_columnSpan="5"
-        android:layout_gravity="fill_horizontal"/>
+        android:layout_gravity="fill_horizontal"
+        />
     <EditText
         android:id="@+id/num2"
         android:layout_width="match_parent"
@@ -30,31 +31,36 @@
             android:layout_row="2"
             android:id="@+id/btn_0"
             android:text="0"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="1"
             android:layout_row="2"
             android:id="@+id/btn_1"
             android:text="1"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="2"
             android:layout_row="2"
             android:id="@+id/btn_2"
             android:text="2"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="3"
             android:layout_row="2"
             android:id="@+id/btn_3"
             android:text="3"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="4"
             android:layout_row="2"
             android:id="@+id/btn_4"
             android:text="4"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
 
         <Button
             android:layout_column="0"
@@ -62,32 +68,35 @@
             android:id="@+id/btn_5"
             android:text="5"
             android:layout_width="80dp"
-            />
-
+            android:backgroundTint="#757575" />
         <Button
             android:layout_column="1"
             android:layout_row="3"
             android:id="@+id/btn_6"
             android:text="6"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="2"
             android:layout_row="3"
             android:id="@+id/btn_7"
             android:text="7"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="3"
             android:layout_row="3"
             android:id="@+id/btn_8"
             android:text="8"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
         <Button
             android:layout_column="4"
             android:layout_row="3"
             android:id="@+id/btn_9"
             android:text="9"
-            android:layout_width="80dp"/>
+            android:layout_width="80dp"
+            android:backgroundTint="#757575"/>
 
         <Button
             android:layout_column="0"
@@ -97,7 +106,8 @@
             android:layout_columnSpan="5"
             android:layout_gravity="fill_horizontal"
             android:layout_width="400dp"
-            android:text="더하기"/>
+            android:text="더하기"
+            android:backgroundTint="#757575"/>
 
         <Button
             android:layout_column="0"
@@ -106,7 +116,8 @@
             android:layout_margin="5dp"
             android:layout_columnSpan="5"
             android:layout_gravity="fill_horizontal"
-            android:text="빼기"/>
+            android:text="빼기"
+            android:backgroundTint="#757575"/>
 
         <Button
             android:layout_column="0"
@@ -115,7 +126,8 @@
             android:layout_margin="5dp"
             android:layout_columnSpan="5"
             android:layout_gravity="fill_horizontal"
-            android:text="곱하기"/>
+            android:text="곱하기"
+            android:backgroundTint="#757575"/>
 
         <Button
             android:layout_column="0"
@@ -124,7 +136,8 @@
             android:layout_margin="5dp"
             android:layout_columnSpan="5"
             android:layout_gravity="fill_horizontal"
-            android:text="나누기"/>
+            android:text="나누기"
+            android:backgroundTint="#757575"/>
 
         <TextView
             android:layout_column="0"
