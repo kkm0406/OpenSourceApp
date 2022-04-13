@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Week5">
         <activity
-            android:name=".mission5_5"
-            android:exported="false" />
-        <activity
-            android:name=".project5_1"
+            android:name=".mission5_4"
             android:exported="false" />
         <activity
             android:name=".mission5_2"
@@ -22,16 +19,19 @@
             android:name=".mission5_1"
             android:exported="false" />
         <activity
-            android:name=".project5_2"
+            android:name=".project5_5"
+            android:exported="false" />
+        <activity
+            android:name=".project5_1"
             android:exported="false" />
         <activity
             android:name=".project5_3"
             android:exported="false" />
         <activity
-            android:name=".project5_5"
+            android:name=".project5_2"
             android:exported="false" />
         <activity
-            android:name=".mission5_4"
+            android:name=".mission5_5"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

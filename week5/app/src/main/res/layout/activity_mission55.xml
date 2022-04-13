@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mission5_5"
-    android:weightSum="5"
+    android:weightSum="6"
     android:orientation="vertical">
 
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="2"/>
 
     <android.widget.Button
         android:layout_width="150dp"
@@ -23,10 +23,12 @@
         android:textColor="#FF5722"
         android:layout_gravity="center"/>
 
+
+
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="0.6"/>
+        android:layout_weight="1"/>
 
     <TextView
         android:layout_width="wrap_content"
