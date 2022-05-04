@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OpenSourceApp">
         <activity
-            android:name="com.example.week4.ex4_1"
-            android:exported="false" />
-        <activity
             android:name=".Week2Homework"
             android:exported="false" />
         <activity
